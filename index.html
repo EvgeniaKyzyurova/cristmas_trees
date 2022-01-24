@@ -38,6 +38,8 @@
     }
     </style>
     
+
+    <script src="script/burger.js" defer></script>
 </head>
 <body>
     <header class="header">
@@ -46,23 +48,23 @@
                 <use xlink:href="#logo" />
             </svg>
 
-            <button class="burger header__burger">
+            <button class="burger header__burger ">
                 <span class="burger__line"></span>
             </button>
 
             <nav class="header__navigation navigation">
                 <ul class="navigation__list">
                     <li class="navigation__item">
-                        <a href="" class="navigation__link">Пихта Фразера</a>
+                        <a href="#one" class="navigation__link">Пихта Фразера</a>
                     </li>
                     <li class="navigation__item">
-                        <a href="" class="navigation__link">Русская ель</a>
+                        <a href="#two" class="navigation__link">Русская ель</a>
                     </li>
                     <li class="navigation__item">
-                        <a href="" class="navigation__link">Сибирская пихта</a>
+                        <a href="#three" class="navigation__link">Сибирская пихта</a>
                     </li>
                     <li class="navigation__item">
-                        <a href="" class="navigation__link">Как оплатить?</a>
+                        <a href="#pay" class="navigation__link">Как оплатить?</a>
                     </li>
                 </ul>
             </nav>
@@ -140,7 +142,7 @@
                 <img src="img/siberian-fir.jpg" alt="" width="630" height="590" class="product__picture">
             </div>
         </section>
-        <section class="pay">
+        <section class="pay" id="pay">
             <div class="container">
                 <h2 class="pay__title">Как можно оплатить</h2>
                 <ul class="pay__list">
